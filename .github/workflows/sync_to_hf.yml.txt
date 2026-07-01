@@ -18,5 +18,4 @@ jobs:
       - name: Push to HF
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        # Pushes your code directly to your Hugging Face Space
-        run: git push --force https://rsm-niou:$HF_TOKEN@huggingface.co/spaces/n-ou/ai-recruitment main
+        run: git push --force https://n-ou:$HF_TOKEN@huggingface.co/spaces/n-ou/ai-recruitment main
