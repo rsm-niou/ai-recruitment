@@ -1,4 +1,6 @@
-
+# Ignore any .env file anywhere in the project tree
+**/.env
+.env
 .venv/
 __pycache__
 .DS_Store
